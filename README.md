@@ -6,11 +6,12 @@ you could run into performance trouble in Product Administration.
 
 This Plugin try to fix this with Pagination.
 
+## Setup
 1. Create Folder inside wp-content 
 2. Upload all files from this repository
 3. Activate the Odermedia Many Variations Fix
 
-### Author:
+## Author:
 **Odermedia** 
 http://www.odermedia.de
 
