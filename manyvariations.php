@@ -7,7 +7,7 @@ Author: Stefan Warnat
 Version: 1.02
 Author URI: http://www.odermedia.de
 */
-define("VARIATIONS_PER_PAGE", 10);
+define("VARIATIONS_PER_PAGE", 25);
 
 class Odermedia_ManyVariations {
 	public function __construct() {
