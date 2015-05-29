@@ -17,3 +17,5 @@ http://www.odermedia.de
 
 **Stefan Warnat** 
 st.warnat@odermedia.de
+
+Thanks to **ZByte Software** for Update to latest WooCommerce
