@@ -51,7 +51,7 @@ class Odermedia_ManyVariations {
 
 		$post_id = (int)$_POST["productId"];
 		
-		require_once(dirname(__FILE__)."/../woocommerce/includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php");
+		require_once(dirname(__FILE__)."/../woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php");
 		
 		WC_Meta_Box_Product_Data::save_variations( $post_id, $post );
 
@@ -62,7 +62,7 @@ class Odermedia_ManyVariations {
 		$post_id = (int)$_POST["productId"];
 		$post = get_post($post_id);
 		
-		require_once(dirname(__FILE__)."/../woocommerce/includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php");
+		require_once(dirname(__FILE__)."/../woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php");
 		
 		WC_Meta_Box_Product_Data::output_variations();
 		
